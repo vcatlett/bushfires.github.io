@@ -247,6 +247,9 @@ figcaption {
   position: relative;
   z-index: 5;
   margin-top: 40px;
+  -webkit-align-self: flex-start;
+  -ms-flex-item-align: start;
+  align-self: flex-start;
   text-align: center;
   text-decoration: none;
 }
@@ -675,7 +678,7 @@ figcaption {
 .contact-form-wrap {
   padding: 45px 50px 50px;
   border-style: solid;
-  border-width: 1px;
+  border-width: 0px;
   border-color: #eee;
 }
 
@@ -1384,6 +1387,7 @@ figcaption {
 }
 
 .heading {
+  margin-top: 0px;
   margin-bottom: 0px;
 }
 
@@ -1424,6 +1428,42 @@ figcaption {
 .image-9 {
   max-width: 100%;
   min-width: 100%;
+}
+
+.grid-4 {
+  grid-row-gap: 28px;
+  -ms-grid-columns: 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  -ms-grid-rows: auto auto auto;
+  grid-template-rows: auto auto auto;
+}
+
+.heading-3 {
+  text-align: center;
+}
+
+.image-10 {
+  height: 150%;
+}
+
+.bold-text {
+  display: block;
+}
+
+.image-11 {
+  height: auto;
+  text-decoration: line-through;
+}
+
+.image-12 {
+  height: 100%;
+  max-height: 200%;
+  margin-left: 51px;
+  line-height: 28%;
+}
+
+.heading-4 {
+  text-align: center;
 }
 
 @media (max-width: 991px) {
@@ -1930,6 +1970,74 @@ figcaption {
   grid-row-start: 2;
   -ms-grid-row-span: 1;
   grid-row-end: 3;
+}
+
+#w-node-f86369285e2a-83bca415 {
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  -ms-grid-row-align: center;
+  align-self: center;
+}
+
+#w-node-2141d8a5405a-83bca415 {
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  -ms-grid-row-align: center;
+  align-self: center;
+}
+
+#w-node-ededf3ec5d0a-83bca415 {
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  -ms-grid-row-align: center;
+  align-self: center;
+}
+
+#w-node-899e11ce1b46-83bca415 {
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  -ms-grid-row-align: center;
+  align-self: center;
+}
+
+#w-node-49527458edb5-83bca415 {
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  -ms-grid-row-align: center;
+  align-self: center;
+}
+
+#w-node-6c4d695c45dd-83bca415 {
+  -ms-grid-row-align: center;
+  align-self: center;
+  -ms-grid-row: span 1;
+  grid-row-start: span 1;
+  -ms-grid-row-span: 1;
+  grid-row-end: span 1;
+  -ms-grid-column: span 1;
+  grid-column-start: span 1;
+  -ms-grid-column-span: 1;
+  grid-column-end: span 1;
+  -ms-grid-column-align: center;
+  justify-self: center;
+}
+
+#w-node-eec994e7fcc2-83bca415 {
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  -ms-grid-row-align: center;
+  align-self: center;
+  -ms-grid-column-align: center;
+  justify-self: center;
+}
+
+#w-node-6983d6789488-83bca415 {
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  -ms-grid-row-align: center;
+  align-self: center;
+  -ms-grid-column-align: center;
+  justify-self: center;
 }
 
 @media screen and (max-width: 991px) {
