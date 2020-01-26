@@ -1,4 +1,4 @@
-**Overview**
+#Overview
 
 In an effort to understand the current problem of the Australian bushfires and present a solution, our team created an interactive website to allow users to track nearby fires and get the help they need.
 
@@ -7,14 +7,14 @@ In an effort to understand the current problem of the Australian bushfires and p
 We're working to make it easy to be prepared for the worst. Inspired by the recent of volunteers combatting the Australian bushfires, our website was created to present consolidated, pertinent data for emergency situations. Recent history has seen a shocking rise in cataclysmic events, especially regarding devastating wildfires. Flames have torn through thousands of homes in California, ripped apart the luscious Amazon rainforest, and slaughtered over a billion animals in Australia.
 
 
-**Functionalities**
+##Functionalities
 
 Our notification system will let you know exactly how close nearby fires are to you. Our algorithm can detect the number and intensity of nearby fires in your area and sends you a text of how at risk you are. The text also includes information on the nearest emergency facility and their phone number to help you get assistance as quickly as possible. A link will also be provided which will direct you to a webpage that will advise you on cautionary steps for how to deal with danger.
 
 Our website also features an interactive map that identifies hotspots for potential fires based on NASA's VIIRS data, which uses state-of-the-art wavelength technology. The map allows you to find available hospitals, veterinarians, and wildlife refuges that reside in your region. 
 
 
-**Steps During an Emergency**
+##Steps During an Emergency
 
 1. Check our website (linked in the message) for the next steps to take
 2. Get everyone in your house to safety (next step has more details)
@@ -23,7 +23,7 @@ Our website also features an interactive map that identifies hotspots for potent
 5. Send us an email if it helped! Any feedback helps us!
 
 
-**Future Improvements**
+##Future Improvements
 
 - Accessing more data to spans more continents
 - Finding more accurate indicators for natural disasters could better inform people of incoming disasters and prevent casualties and compounding damages
@@ -35,7 +35,7 @@ Our website also features an interactive map that identifies hotspots for potent
 - Giving users timely news articles and social media posts to proactively update them on the status of weather
 
 
-**Built With (Stack)**
+##Built With (Stack)
 
 Front-end 
 * Tableau
@@ -52,7 +52,7 @@ Database
 
 
 
-**Contributors**
+##Contributors
 Joshua Bae - Rice University
 
 Victoria Catlett - University of Texas at Dallas
@@ -63,7 +63,7 @@ Kelly Petrone - Arizona State University
 
 
 
-**Acknowledgments**
+##Acknowledgments
 
 * TAMUHACK 2020
 * Volunteers in Australia
