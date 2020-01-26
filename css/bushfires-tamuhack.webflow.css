@@ -248,6 +248,7 @@ figcaption {
   z-index: 5;
   margin-top: 40px;
   text-align: center;
+  text-decoration: none;
 }
 
 .button.cc-white-button {
@@ -1404,6 +1405,25 @@ figcaption {
   grid-template-columns: 1fr 1fr 1fr;
   -ms-grid-rows: auto;
   grid-template-rows: auto;
+}
+
+.paragraph-2 {
+  position: static;
+  overflow: hidden;
+}
+
+.html-embed-4 {
+  overflow: hidden;
+}
+
+.body-10 {
+  background-color: #b4c7e7;
+  color: #1a1b1f;
+}
+
+.image-9 {
+  max-width: 100%;
+  min-width: 100%;
 }
 
 @media (max-width: 991px) {
